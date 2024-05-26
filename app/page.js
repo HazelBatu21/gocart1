@@ -1,0 +1,16 @@
+import Image from "next/image";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-teal-100 w-full flex flex-col justify-center items-center">
+    <Header/> 
+      <div className="bg-blue-200 w-4/5 flex flex-col justify-center items-center py-2 min-h-screen">
+        Hello Again. Welcome to webdev class.
+      </div>
+    <Footer/>
+    </main>
+  );
+}
